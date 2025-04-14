@@ -2,11 +2,11 @@ data:
   app-config-rhdh.yaml: |
     app:
       title: Red Hat Developer Hub
-      baseUrl: https://developer-hub-utherp0-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
+      baseUrl: https://developer-hub-rocrisp-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
     catalog:
       locations:
         - type: url
-          target: https://github.com/utherp0/janustest1/blob/main/catalogs/exampleUser.yaml
+          target: https://github.com/rocrisp/janustest1/blob/main/catalogs/exampleUser.yaml
           rules:
             - allow: [User, Group]
         - type: url

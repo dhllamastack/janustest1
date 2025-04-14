@@ -14,9 +14,9 @@ metadata:
     - title: Kubernetes Introduction
       url: https://devepiphany.org/2021/01/15/interlude-kubernetes-koncepts/
   annotations:
-    github.com/project-slug: utherp0/janustest1
+    github.com/project-slug: rocrisp/janustest1
     argocd/app-name: uthblogs
 spec:
   type: library
-  owner: utherp0
+  owner: rocrisp
   lifecycle: experimental
