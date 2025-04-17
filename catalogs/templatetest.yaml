@@ -4,10 +4,10 @@ kind: Template
 # some metadata about the template itself
 metadata:
   name: rhdhdemo1
-  title: RHDH Test Scaffold template from Backstage
-  description: scaffolder v1beta3 template demo
+  title: Building a Secure RAG Chatbot with the LLaMA Stack
+  description: This project demonstrates how to build a secure, production-ready chatbot powered by the LLaMA language model and enhanced with Retrieval-Augmented Generation (RAG). By integrating vector search, access controls, and deployment best practices, we ensure that the chatbot delivers accurate responses while protecting sensitive data. Ideal for developers exploring open-source LLM stacks, this guide walks through the architecture, security layers, and deployment steps needed to get a LLaMA-based RAG assistant up and running.
 spec:
-  owner: backstage/techdocs-core
+  owner: rhdh
   type: service
 
   # these are the steps which are rendered in the frontend with the form input
@@ -59,7 +59,7 @@ spec:
       action: fetch:plain
       input:
         targetPath: .
-        url: https://github.com/dhllamastack/testscaffold
+        url: https://github.com/RHEcosystemAppEng/RAG-Blueprint
 
     - id: publish
       name: Publish
